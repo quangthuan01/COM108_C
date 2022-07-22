@@ -1,11 +1,16 @@
 #include <stdio.h>
  
 int main(){
-    for(int i = 0; i < 5; i++){
+
+    /*for( Gán giá trị lặp ; Điều kiện lặp ; Tăng giá trị biến lặp){
+            code
+    };*/
+    for(int i = 0; i < 3; i++){
         printf("\n'Ngay buon, nhu anh mat em'\n");
     }
     // Continue ...
     printf("\n\nKet thuc vong lap!\n\n\n");
+    return 0;
 }
  
 /*
