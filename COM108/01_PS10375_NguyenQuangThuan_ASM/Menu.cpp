@@ -12,7 +12,7 @@ printf("\nTenSV: Nguyen Quang Thuan\n\n");
 printf("\nMSSV: PS10375\n\n");
 printf("\nLop: IT18201_3\n\n");
 printf("\nMenu Chuong Trinh\n\n");
-printf("\n\t1.Bai 1 Kiem tra so nguyen\n\n");
+printf("\n\t1.Bai 1 Kiem tra so nguyen, nguyen to, chinh phuong\n\n");
 printf("\n\t2.Bai 2 Tim boi chung va uoc chung\n\n");
 printf("\n\t3.Bai 3 Chuong trinh tinh tien quan karaoke\n\n");
 printf("\n\t4.Bai 4 Tinh tien dien\n\n");

@@ -24,7 +24,6 @@ int main()
 	// switch case
 	switch (choose)
 	{
-
 	case 1:
 		printf("\n\nBai 1: If else\n\n");
 		printf("\n\n=====================================\n\n");
