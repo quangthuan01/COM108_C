@@ -107,6 +107,6 @@ int main()
     changeStudent(sinhVien, n);
     // tìm kiếm sinh viên
     searchStudent(sinhVien, n);
-    printf("============================================");
+    printf("\n\n======================================================\n\n");
     return 0;
 }
