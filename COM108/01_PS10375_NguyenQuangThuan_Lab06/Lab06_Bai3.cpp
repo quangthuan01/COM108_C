@@ -29,4 +29,5 @@ int main(){
     for(int i = 0; i < n; i++){
         printf("\t%d \n", number[i]);
     }
+    return 0;
 }
