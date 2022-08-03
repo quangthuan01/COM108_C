@@ -7,6 +7,7 @@ struct SinhVien
     char nganhHoc[100];
     float diemTb;
 };
+//code
 // hàm nhập danh sách sinh viên
 void inPut(SinhVien sinhVien[], int n)
 {
