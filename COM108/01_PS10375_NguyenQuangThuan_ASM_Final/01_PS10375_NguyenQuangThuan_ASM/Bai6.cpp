@@ -14,7 +14,6 @@ int main()
         tientra = (tientracodinh / 12) + tienlai;
         tien -= (tientracodinh / 12);
         // xuất ra màn hình tiền lãi và tiền gốc hàng tháng phải trả
-        printf("\n============================================================\n");
         printf("Thang %d phai tra %d bao gom: Tien lai: %d/Tien goc: %d", thang, tientra, tienlai, tientracodinh / 12);
         printf("\n============================================================\n");
    

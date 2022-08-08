@@ -22,8 +22,8 @@ int main() {
       }
 
       // Tim gia tri min
-      int min = 1;
-      for(i=1;i<n;i++){
+      int min = 0;
+      for(i=0;i<n;i++){
             if(mang[i] < min){
                   min = mang[i];
             }

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /* TINH BINH PHUONG CAC PHAN TU TRONG MANG */
 unsigned int SumQ(int a[],int n);

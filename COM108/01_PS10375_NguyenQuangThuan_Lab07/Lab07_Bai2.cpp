@@ -1,20 +1,27 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+#include <string.h>
+int main()
+{
 
     char username[] = "admin";
     int password = 123;
     char user[20];
-    int pass;
+    int pass, result;
 
     printf("\n\nEnter username: ");
     gets(user);
     printf("\nEnter password: ");
-    scanf("%d",&pass);
+    scanf("%d", &pass);
 
+    /* Comparing the user input with the username. */
+    result = strcmp(user, username);
 
-    if(user == username || pass == password){
+    if (result == 0 && pass == password)
+    {
         printf("\n\n Dang nhap thanh cong!\n\n");
-    }else{
+    }
+    else
+    {
         printf("\n\nDang nhap that bai!\n\n");
     }
 
